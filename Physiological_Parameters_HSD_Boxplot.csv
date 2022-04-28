@@ -1,0 +1,24 @@
+$E
+       value groups
+Fe 0.4148496      a
+C  0.3942060      a
+P  0.1694020      b
+
+$A
+      value groups
+C  2.073333      a
+Fe 1.363636      b
+P  1.035000      b
+
+$gs
+         value groups
+Fe 0.018262985      a
+C  0.017671688      a
+P  0.007464612      b
+
+$`Normalized gs`
+         value groups
+C  0.008405314      a
+Fe 0.008018548      a
+P  0.003125508      b
+
