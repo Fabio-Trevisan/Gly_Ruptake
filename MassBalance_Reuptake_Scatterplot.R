@@ -10,7 +10,7 @@ library(dplyr)
 
 #Scatter line + error bars (STD.Err) --> calculate means and errors in R ####
 
-table2 <- read.csv("DATA_IRMS_MassBalance_Results.csv", sep=";",
+table2 <- read.csv("DATA_MassBalance_Reuptake.csv", sep=";",
                    header=T)
 
 
