@@ -6,9 +6,8 @@ library(tidyverse)
 library(plyr) 
 library(dplyr)
 library(readxl)
+library(scales)
 
-
-#SideBySide Boxlot ####
 
 table <- read.csv("DATA_13C_Reuptake.csv", sep=";",
                    header=T)
@@ -17,6 +16,7 @@ table <- read.csv("DATA_13C_Reuptake.csv", sep=";",
 table <- table %>% drop_na(Value)
 
 
+#SideBySide Boxlot ####
 my_order<- c("C", "Fe", "P")
 f1 <- ggplot(table, aes(x = as.factor(Time), y = Value, fill = Treatment))+  
   stat_boxplot(geom="errorbar")+
@@ -32,9 +32,7 @@ ggsave(filename = "13C_SideBySide_Boxplot.pdf", plot = last_plot(), dpi = 600, u
 
 
 #SideBySide Boxlot + trendline ####
-trendline2 <- geom_smooth(aes(group = Treatment, color = Treatment, fill = Treatment), method=lm, alpha = 0.1, linetype="dashed") 
-trendline <- geom_smooth(aes(group = Treatment, color = Treatment, fill=Treatment), span = 1, alpha = 0.1, linetype="dashed")
-trendline3 <- geom_smooth(aes(group = Treatment, color = Treatment, fill=Treatment), span = 10, alpha = 0.2)
+trendline <- geom_smooth(aes(group = Treatment, color = Treatment, fill = Treatment), method=lm, alpha = 0.1, linetype="dashed") 
 
 f1 <- ggplot(table, aes(x = factor(Time), y = Value, fill = Treatment)) +  
   trendline +
@@ -50,4 +48,4 @@ f2 <- f1 + facet_wrap(~Species_Tissue, scales="free", ncol = 2)+
   xlab("Time (Days)")
 f2
 
-ggsave(filename = "13C_SideBySide_Boxplot_3.pdf", plot = last_plot(), dpi = 600, units = "cm", width = 70, height = 60, scale = 0.5)
+ggsave(filename = "13C_SideBySide_Boxplot_2.pdf", plot = last_plot(), dpi = 600, units = "cm", width = 70, height = 60, scale = 0.5)

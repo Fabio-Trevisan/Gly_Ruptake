@@ -43,24 +43,3 @@ ggsave(filename = "13C_Scatter-lines_errorbars(bw).pdf", plot = last_plot(), dpi
 
 
 write.table(Summary_table, "13C_summary_statistics.csv", quote = FALSE, sep = ";")
-
-
-#Scatter point + error bars (STD.Err) + trendline ####
-b <- ggplot(Summary_table, aes(x = Time, y = mean, group = Treatment, colour = Treatment)) + 
-  geom_point(aes(shape = Treatment)) + 
-  scale_shape_manual(values = c(15:18)) +
-  geom_errorbar(aes(ymin = mean-se, ymax = mean+se, group = Treatment), width = 0.5) +
-  theme_bw() + 
-  scale_color_manual(values=c("grey77", "darkorange2", "skyblue3"))+
-  scale_fill_manual(values=c("grey77", "darkorange2", "skyblue3"))+
-  scale_y_continuous(labels = scientific) +
-  scale_x_continuous(breaks=seq(0,17,1))+ 
-  facet_wrap(~Species_Tissue, scales="free", ncol = 2) + 
-  ylab("Delta 13C") + 
-  xlab("Time (Days)")  
-  
-b + geom_smooth(aes(fill=Treatment), method=lm, alpha = 0.2)
-b + geom_smooth(aes(fill=Treatment), span = 1, alpha = 0.2) 
-b + geom_smooth(aes(fill=Treatment), span = 10, alpha = 0.2)
-
-ggsave(filename = "13C_Scatter-lines_test_3.pdf", plot = last_plot(), dpi = 600, units = "cm", width = 70, height = 60, scale = 0.5)
