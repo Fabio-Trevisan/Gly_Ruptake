@@ -1,0 +1,36 @@
+library(plyr) 
+library(dplyr)
+library(reshape2)
+library(ggplot2)
+
+
+#Read csv ####
+table <- read.csv("DATA_Gly-Reuptake_ICP_He.csv", sep=";",
+                  header=T)
+
+
+#Re-arrange table and mean value calculation ####
+table2 <- dcast(table, 
+                Tissue + Treatment ~Element, 
+                mean,
+                value.var = "ppb")
+
+
+#Normalization and centration ####
+#between 0 and 1 (according to range)
+process1 <- preProcess(table2, method=c("range"))
+norm_scale1 <- predict(process1, table2)
+
+norm_scale <- melt(norm_scale1, id = c("Tissue","Treatment"))
+
+ggplot(norm_scale, aes(Treatment, variable, size=value, colour = Treatment))+
+  geom_point()
+
+
+ggsave(filename = "ICP_Bubbleplot.pdf", 
+       plot = last_plot(), 
+       dpi = 600, 
+       units = "cm", 
+       width = 60, 
+       height = 70, 
+       scale = 0.3)
