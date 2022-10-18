@@ -1,6 +1,7 @@
 library(plyr) 
 library(dplyr)
 library(reshape2)
+library(caret)
 library(ggplot2)
 
 
@@ -10,7 +11,7 @@ table <- read.csv("DATA_Gly-Reuptake_ICP_He.csv", sep=";",
 
 
 #Re-arrange table and mean value calculation ####
-table2 <- dcast(table, 
+.table2 <- dcast(table, 
                 Tissue + Treatment ~Element, 
                 mean,
                 value.var = "ppb")
@@ -23,14 +24,15 @@ norm_scale1 <- predict(process1, table2)
 
 norm_scale <- melt(norm_scale1, id = c("Tissue","Treatment"))
 
-ggplot(norm_scale, aes(Treatment, variable, size=value, colour = Treatment))+
-  geom_point()
+ggplot(norm_scale, aes(Treatment, variable, size=value, colour = Treatment)) +
+  geom_point() + 
+  facet_wrap(~Tissue, ncol = 2)
 
 
 ggsave(filename = "ICP_Bubbleplot.pdf", 
        plot = last_plot(), 
        dpi = 600, 
        units = "cm", 
-       width = 60, 
+       width = 80, 
        height = 70, 
-       scale = 0.3)
+       scale = 0.2)

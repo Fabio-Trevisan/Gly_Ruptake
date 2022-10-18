@@ -17,7 +17,7 @@ table2 <- dcast(table,
                 mean,
                 value.var = "ppb")
 
-#creare due subset per micro- e macro-nutrienti
+#creare due subset per micro- e macro-nutrienti ####
 table_Micro <- dcast(table, 
                 Tissue + Treatment ~Element, 
                 mean,  
