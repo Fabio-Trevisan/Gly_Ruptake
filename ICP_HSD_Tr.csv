@@ -1,182 +1,208 @@
-$R;;
-$R$`208_Pb`;;
-;ppb;groups
-P;13.38775;a
-Fe;7.1915;a
-C;2.013;a
-;;
-$R$`23_Na`;;
-;ppb;groups
-P;9649.904;a
-Fe;8417.749;a
-C;1598.698;b
-;;
-$R$`24_Mg`;;
-;ppb;groups
-P;13565.75;a
-Fe;9333.25;b
-C;4352;c
-;;
-$R$`27_Al`;;
-;ppb;groups
-P;148.88;a
-Fe;113.1635;a
-C;22.54275;b
-;;
-$R$`31_P`;;
-;ppb;groups
-C;14978.75;a
-Fe;5608.5;b
-P;1174.5;c
-;;
-$R$`34_S`;;
-;ppb;groups
-C;18166;a
-Fe;7504.25;b
-P;7006;b
-;;
-$R$`39_K`;;
-;ppb;groups
-C;58653.25;a
-Fe;51775.75;ab
-P;48199.25;b
-;;
-$R$`44_Ca`;;
-;ppb;groups
-P;13126.25;a
-Fe;13010.5;a
-C;5687.25;b
-;;
-$R$`47_Ti`;;
-;ppb;groups
-P;5.53875;a
-Fe;4.8415;a
-C;1.578;a
-;;
-$R$`55_Mn`;;
-;ppb;groups
-Fe;228.747;a
-C;220.4008;a
-P;102.6598;b
-;;
-$R$`56_Fe`;;
-;ppb;groups
-P;3490.829;a
-C;1309.2235;b
-Fe;358.2912;c
-;;
-$R$`63_Cu`;;
-;ppb;groups
-Fe;169.0962;a
-P;78.3065;b
-C;26.0075;c
-;;
-$R$`66_Zn`;;
-;ppb;groups
-Fe;1279.1968;a
-P;931.1562;a
-C;158.875;b
-;;
-$R$`75_As`;;
-;ppb;groups
-P;1.32275;a
-Fe;0.45175;b
-C;0.214;c
-;;
-$R$`98_Mo`;;
-;ppb;groups
-P;33.63075;a
-Fe;3.33525;b
-C;1.88125;b
-;;
-;;
-$S;;
-$S$`208_Pb`;;
-;ppb;groups
-P;1.48;a
-Fe;1.1282;ab
-C;0.0116;b
-;;
-$S$`23_Na`;;
-;ppb;groups
-P;3831.316;a
-Fe;1075.281;b
-C;305.244;b
-;;
-$S$`24_Mg`;;
-;ppb;groups
-P;11388.5;a
-Fe;5737.2;b
-C;5021.8;b
-;;
-$S$`27_Al`;;
-;ppb;groups
-P;47.14875;a
-Fe;13.4248;b
-C;2.8638;c
-;;
-$S$`31_P`;;
-;ppb;groups
-C;6171.2;a
-Fe;5800.2;ab
-P;4668.25;b
-;;
-$S$`34_S`;;
-;ppb;groups
-P;11921;a
-C;8920;b
-Fe;8594.2;b
-;;
-$S$`39_K`;;
-;ppb;groups
-Fe;63051.4;a
-C;56091.2;ab
-P;47285.5;b
-;;
-$S$`44_Ca`;;
-;ppb;groups
-Fe;36814.8;a
-P;35252.5;a
-C;34291.4;a
-;;
-$S$`47_Ti`;;
-;ppb;groups
-P;1.47575;a
-Fe;0.897;b
-C;0.5586;b
-;;
-$S$`55_Mn`;;
-;ppb;groups
-P;200.3622;a
-Fe;82.017;b
-C;44.2236;c
-;;
-$S$`56_Fe`;;
-;ppb;groups
-P;643.3162;a
-C;153.4124;b
-Fe;89.8054;b
-;;
-$S$`63_Cu`;;
-;ppb;groups
-P;17.9685;a
-Fe;13.133;b
-C;8.7442;c
-;;
-$S$`66_Zn`;;
-;ppb;groups
-Fe;197.7376;a
-P;165.659;a
-C;34.749;b
-;;
-$S$`75_As`;;
-;ppb;groups
-P;0.11725;a
-Fe;0.0322;b
-C;0.0026;c
-;;
-$S$`98_Mo`;;
-;ppb;groups
-P;12.9095;a
-Fe;3.8852;b
-C;2.558;c
+$Root
+$Root$Na
+        ppb groups
+P  9897.911      a
+Fe 8308.762      a
+C  1658.052      b
+
+$Root$Mg
+        ppb groups
+P  13634.00      a
+Fe  9485.75      b
+C   4629.50      c
+
+$Root$Al
+         ppb groups
+P  142.07625      a
+Fe 110.36025      a
+C   26.15275      b
+
+$Root$Si
+       ppb groups
+P  3401.75      a
+Fe 2207.75      a
+C   470.50      b
+
+$Root$P
+        ppb groups
+C  16204.00      a
+Fe  6214.00      b
+P   1946.25      c
+
+$Root$S
+        ppb groups
+C  23039.50      a
+Fe 11911.50      b
+P  10849.25      b
+
+$Root$K
+        ppb groups
+C  58792.50      a
+Fe 50300.75      b
+P  46256.25      b
+
+$Root$Ca
+        ppb groups
+P  13370.25      a
+Fe 13190.50      a
+C   6641.25      b
+
+$Root$Ti
+       ppb groups
+P  3.14275      a
+Fe 2.92300      a
+C  1.58350      a
+
+$Root$Mn
+         ppb groups
+C  221.94950      a
+Fe 220.04300      a
+P   98.84425      b
+
+$Root$Fe
+         ppb groups
+P  3860.2120      a
+C  1527.7268      b
+Fe  388.7635      c
+
+$Root$Cu
+         ppb groups
+Fe 154.70175      a
+P   71.57200      b
+C   25.40025      c
+
+$Root$Zn
+         ppb groups
+Fe 1180.6827      a
+P   862.7705      a
+C   160.7260      b
+
+$Root$As
+      ppb groups
+P  2.1365      a
+Fe 1.4530      b
+C  1.2715      b
+
+$Root$Se
+      ppb groups
+P  1.9995      a
+C  1.2285      a
+Fe 0.3585      a
+
+$Root$Mo
+        ppb groups
+P  31.46150      a
+Fe  3.23375      b
+C   1.94725      b
+
+$Root$Pb
+        ppb groups
+P  12.72375      a
+Fe  7.00450      a
+C   2.20825      a
+
+
+$Shoot
+$Shoot$Na
+         ppb groups
+P  3873.9995      a
+Fe 1166.5778      b
+C   317.7584      c
+
+$Shoot$Mg
+       ppb groups
+P  11222.0      a
+Fe  6082.6      b
+C   5135.6      b
+
+$Shoot$Al
+        ppb groups
+P  46.20825      a
+Fe 14.90760      b
+C   5.05720      c
+
+$Shoot$Si
+       ppb groups
+P  1098.75      a
+Fe  282.20      b
+C    84.60      c
+
+$Shoot$P
+       ppb groups
+C  6547.00      a
+Fe 6320.60      a
+P  5004.75      b
+
+$Shoot$S
+       ppb groups
+P  13900.0      a
+Fe 10593.8      b
+C   9822.0      b
+
+$Shoot$K
+        ppb groups
+Fe 63270.00      a
+C  54948.00     ab
+P  45373.25      b
+
+$Shoot$Ca
+        ppb groups
+Fe 36123.40      a
+P  33579.75      a
+C  33019.80      a
+
+$Shoot$Ti
+      ppb groups
+P  1.0590      a
+Fe 0.7796      b
+C  0.5716      b
+
+$Shoot$Mn
+        ppb groups
+P  193.9975      a
+Fe  82.1214      b
+C   43.7786      c
+
+$Shoot$Fe
+        ppb groups
+P  648.3920      a
+C  162.6566      b
+Fe 100.4052      b
+
+$Shoot$Cu
+        ppb groups
+P  16.79025      a
+Fe 12.91520      b
+C   8.52580      c
+
+$Shoot$Zn
+        ppb groups
+Fe 194.6626      a
+P  156.9702      a
+C   36.5830      b
+
+$Shoot$As
+       ppb groups
+Fe 0.78160      a
+P  0.56975      b
+C  0.40560      c
+
+$Shoot$Se
+       ppb groups
+P  0.86825      a
+Fe 0.78200      a
+C  0.72100      a
+
+$Shoot$Mo
+        ppb groups
+P  12.32175      a
+Fe  3.93940      b
+C   2.58660      c
+
+$Shoot$Pb
+       ppb groups
+P  1.51675      a
+Fe 1.24020     ab
+C  0.12840      b
+
+

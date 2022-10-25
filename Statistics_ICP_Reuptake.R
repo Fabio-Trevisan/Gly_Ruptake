@@ -12,18 +12,23 @@ library(agricolae)
 table <- read.csv("DATA_Gly-Reuptake_ICP_He.csv", sep=";",
                   header=T)
 
+table2 <- melt(data = table, 
+               id.vars = c("Tissue", "Treatment"), 
+               variable.name = "Element", 
+               value.name = "ppb")
+
 
 #Assumptions ####
 ## 1. Homogeneity of variances
-##Treatment*Time
-Levene_test <- lapply(split(table, table$Tissue), function(i){
-  levene_test(ppb ~ Treatment * Element, data = i)
-})
+##Treatment*Tissue
+Levene_test2 <- table2 %>%
+  group_by(Element) %>%
+  levene_test(ppb ~ Treatment * Tissue)
 
 ##2. Normality
 ##Shapiro-Wilk test for all single treatments
-SW_test <- table %>%
-  group_by(Element, Treatment, Tissue) %>%
+SW_test <- table2 %>%
+  group_by(Tissue, Element, Treatment) %>%
   shapiro_test(ppb)
 View(SW_test)
 write.table(SW_test, file = "ICP_ShapiroWilk_test_results.csv", quote = FALSE, sep = ";")
@@ -34,10 +39,10 @@ write.table(SW_test, file = "ICP_ShapiroWilk_test_results.csv", quote = FALSE, s
 
 #1way ANOVA ####
 ###create Subsets according to Tissue 
-vector_Tissue <- c("R", "S")
+vector_Tissue <- c("Root", "Shoot")
 
 Subsets <- lapply(vector_Tissue, function(i){ 
-  i <- subset(table, Tissue == i)
+  i <- subset(table2, Tissue == i)
 })
 
 names(Subsets) <- vector_Tissue
