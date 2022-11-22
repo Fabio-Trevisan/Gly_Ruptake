@@ -7,7 +7,8 @@ Response: ppb
 Treatment  2 152870143 76435071  14.971 0.001372 **
 Residuals  9  45950446  5105605                    
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Root$Mg
 Analysis of Variance Table
@@ -17,27 +18,8 @@ Response: ppb
 Treatment  2 162496216 81248108  154.37 1.083e-07 ***
 Residuals  9   4736916   526324                      
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-$Root$Al
-Analysis of Variance Table
-
-Response: ppb
-          Df  Sum Sq Mean Sq F value    Pr(>F)    
-Treatment  2 28713.4 14356.7  17.477 0.0007954 ***
-Residuals  9  7393.1   821.5                      
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-$Root$Si
-Analysis of Variance Table
-
-Response: ppb
-          Df   Sum Sq Mean Sq F value   Pr(>F)   
-Treatment  2 17381200 8690600   15.19 0.001304 **
-Residuals  9  5149022  572114                    
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Root$P
 Analysis of Variance Table
@@ -47,7 +29,8 @@ Response: ppb
 Treatment  2 428396300 214198150  568.29 3.377e-10 ***
 Residuals  9   3392255    376917                      
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Root$S
 Analysis of Variance Table
@@ -57,7 +40,8 @@ Response: ppb
 Treatment  2 364750605 182375303  148.15 1.297e-07 ***
 Residuals  9  11079449   1231050                      
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Root$K
 Analysis of Variance Table
@@ -67,7 +51,8 @@ Response: ppb
 Treatment  2 327500483 163750242  9.7486 0.005591 **
 Residuals  9 151176483  16797387                    
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Root$Ca
 Analysis of Variance Table
@@ -77,7 +62,8 @@ Response: ppb
 Treatment  2 117605902 58802951  20.177 0.0004722 ***
 Residuals  9  26229542  2914394                      
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Root$Ti
 Analysis of Variance Table
@@ -95,7 +81,8 @@ Response: ppb
 Treatment  2  39797 19898.4  14.529 0.001521 **
 Residuals  9  12326  1369.6                    
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Root$Fe
 Analysis of Variance Table
@@ -105,7 +92,8 @@ Response: ppb
 Treatment  2 25051573 12525786  280.42 7.82e-09 ***
 Residuals  9   402007    44667                     
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Root$Cu
 Analysis of Variance Table
@@ -115,7 +103,8 @@ Response: ppb
 Treatment  2  34348 17174.2  41.611 2.834e-05 ***
 Residuals  9   3715   412.7                      
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Root$Zn
 Analysis of Variance Table
@@ -125,17 +114,8 @@ Response: ppb
 Treatment  2 2178995 1089498  29.775 0.0001077 ***
 Residuals  9  329321   36591                      
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-$Root$As
-Analysis of Variance Table
-
-Response: ppb
-          Df  Sum Sq Mean Sq F value    Pr(>F)    
-Treatment  2 1.66445 0.83223  38.969 3.695e-05 ***
-Residuals  9 0.19221 0.02136                      
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Root$Se
 Analysis of Variance Table
@@ -153,17 +133,8 @@ Response: ppb
 Treatment  2 2226.07 1113.03  32.313 7.807e-05 ***
 Residuals  9  310.01   34.45                      
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-$Root$Pb
-Analysis of Variance Table
-
-Response: ppb
-          Df Sum Sq Mean Sq F value  Pr(>F)  
-Treatment  2 221.72 110.860  3.6616 0.06862 .
-Residuals  9 272.49  30.277                  
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 
 $Shoot
@@ -175,7 +146,8 @@ Response: ppb
 Treatment  2 29825144 14912572  68.749 6.07e-07 ***
 Residuals 11  2386061   216915                     
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Shoot$Mg
 Analysis of Variance Table
@@ -185,27 +157,8 @@ Response: ppb
 Treatment  2 92255298 46127649  125.25 2.701e-08 ***
 Residuals 11  4051148   368286                      
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-$Shoot$Al
-Analysis of Variance Table
-
-Response: ppb
-          Df Sum Sq Mean Sq F value    Pr(>F)    
-Treatment  2   3992 1996.02  81.623 2.519e-07 ***
-Residuals 11    269   24.45                      
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-$Shoot$Si
-Analysis of Variance Table
-
-Response: ppb
-          Df  Sum Sq Mean Sq F value    Pr(>F)    
-Treatment  2 2491516 1245758  93.835 1.224e-07 ***
-Residuals 11  146037   13276                      
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Shoot$P
 Analysis of Variance Table
@@ -215,7 +168,8 @@ Response: ppb
 Treatment  2 5962954 2981477  5.9376 0.01783 *
 Residuals 11 5523522  502138                  
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Shoot$S
 Analysis of Variance Table
@@ -225,7 +179,8 @@ Response: ppb
 Treatment  2 40436624 20218312  33.837 1.998e-05 ***
 Residuals 11  6572807   597528                      
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Shoot$K
 Analysis of Variance Table
@@ -235,7 +190,8 @@ Response: ppb
 Treatment  2 712198719 356099359  5.0025 0.0285 *
 Residuals 11 783031553  71184687                 
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Shoot$Ca
 Analysis of Variance Table
@@ -253,7 +209,8 @@ Response: ppb
 Treatment  2 0.52815 0.264074  17.683 0.0003661 ***
 Residuals 11 0.16427 0.014934                      
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Shoot$Mn
 Analysis of Variance Table
@@ -263,7 +220,8 @@ Response: ppb
 Treatment  2  52742 26371.2  83.963 2.177e-07 ***
 Residuals 11   3455   314.1                      
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Shoot$Fe
 Analysis of Variance Table
@@ -273,7 +231,8 @@ Response: ppb
 Treatment  2 772961  386480  146.89 1.163e-08 ***
 Residuals 11  28942    2631                      
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Shoot$Cu
 Analysis of Variance Table
@@ -283,7 +242,8 @@ Response: ppb
 Treatment  2 153.430  76.715  29.209 3.977e-05 ***
 Residuals 11  28.891   2.626                      
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Shoot$Zn
 Analysis of Variance Table
@@ -293,17 +253,8 @@ Response: ppb
 Treatment  2  67358   33679  22.182 0.000138 ***
 Residuals 11  16701    1518                     
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-$Shoot$As
-Analysis of Variance Table
-
-Response: ppb
-          Df  Sum Sq  Mean Sq F value    Pr(>F)    
-Treatment  2 0.35507 0.177533  32.829 2.304e-05 ***
-Residuals 11 0.05949 0.005408                      
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 $Shoot$Se
 Analysis of Variance Table
@@ -321,16 +272,7 @@ Response: ppb
 Treatment  2 239.035 119.518   468.1 2.276e-11 ***
 Residuals 11   2.809   0.255                      
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-$Shoot$Pb
-Analysis of Variance Table
-
-Response: ppb
-          Df Sum Sq Mean Sq F value  Pr(>F)  
-Treatment  2 5.0702 2.53509  4.6979 0.03351 *
-Residuals 11 5.9359 0.53963                  
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 

@@ -1,0 +1,137 @@
+$`50µM_TR`
+$`50µM_TR`$C
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value   Pr(>F)    
+Time       5 0.19662 0.039323  10.095 2.68e-05 ***
+Residuals 24 0.09349 0.003895                     
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$`50µM_TR`$Fe
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq   Mean Sq F value   Pr(>F)   
+Time       5 0.13982 0.0279647  3.9467 0.009912 **
+Residuals 23 0.16297 0.0070856                    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$`50µM_TR`$P
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq  Mean Sq F value Pr(>F)
+Time       5 0.08478 0.016955  1.1757 0.3512
+Residuals 23 0.33168 0.014421               
+
+
+$`50µM_TS`
+$`50µM_TS`$C
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq F value   Pr(>F)   
+Time       5 0.00031315 6.2630e-05  4.9186 0.003071 **
+Residuals 24 0.00030560 1.2733e-05                    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$`50µM_TS`$Fe
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq F value Pr(>F)
+Time       5 7.4597e-05 1.4919e-05  1.6623 0.1821
+Residuals 24 2.1541e-04 8.9752e-06               
+
+$`50µM_TS`$P
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq F value   Pr(>F)   
+Time       5 0.00017327 3.4654e-05  4.9924 0.002831 **
+Residuals 24 0.00016659 6.9410e-06                    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$`500µM_TR`
+$`500µM_TR`$C
+Analysis of Variance Table
+
+Response: Value
+          Df Sum Sq Mean Sq F value   Pr(>F)   
+Time       5 1.8878 0.37755  4.8813 0.003201 **
+Residuals 24 1.8563 0.07735                    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$`500µM_TR`$Fe
+Analysis of Variance Table
+
+Response: Value
+          Df Sum Sq Mean Sq F value   Pr(>F)   
+Time       5 2.8391 0.56782  3.9642 0.009711 **
+Residuals 23 3.2944 0.14324                    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$`500µM_TR`$P
+Analysis of Variance Table
+
+Response: Value
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+Time       5 3.3996 0.67992  8.3861 0.0001063 ***
+Residuals 24 1.9459 0.08108                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$`500µM_TS`
+$`500µM_TS`$C
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq F value    Pr(>F)
+Time       5 0.00049078 9.8155e-05  11.707 8.294e-06
+Residuals 24 0.00020122 8.3840e-06                  
+             
+Time      ***
+Residuals    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$`500µM_TS`$Fe
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq    Mean Sq F value   Pr(>F)   
+Time       5 0.0013641 2.7282e-04  5.5267 0.001593 **
+Residuals 24 0.0011848 4.9365e-05                    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$`500µM_TS`$P
+Analysis of Variance Table
+
+Response: Value
+          Df     Sum Sq    Mean Sq F value   Pr(>F)   
+Time       5 0.00042936 8.5871e-05  5.5314 0.001585 **
+Residuals 24 0.00037258 1.5524e-05                    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+

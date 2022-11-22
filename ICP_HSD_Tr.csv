@@ -11,18 +11,6 @@ P  13634.00      a
 Fe  9485.75      b
 C   4629.50      c
 
-$Root$Al
-         ppb groups
-P  142.07625      a
-Fe 110.36025      a
-C   26.15275      b
-
-$Root$Si
-       ppb groups
-P  3401.75      a
-Fe 2207.75      a
-C   470.50      b
-
 $Root$P
         ppb groups
 C  16204.00      a
@@ -77,12 +65,6 @@ Fe 1180.6827      a
 P   862.7705      a
 C   160.7260      b
 
-$Root$As
-      ppb groups
-P  2.1365      a
-Fe 1.4530      b
-C  1.2715      b
-
 $Root$Se
       ppb groups
 P  1.9995      a
@@ -94,12 +76,6 @@ $Root$Mo
 P  31.46150      a
 Fe  3.23375      b
 C   1.94725      b
-
-$Root$Pb
-        ppb groups
-P  12.72375      a
-Fe  7.00450      a
-C   2.20825      a
 
 
 $Shoot
@@ -114,18 +90,6 @@ $Shoot$Mg
 P  11222.0      a
 Fe  6082.6      b
 C   5135.6      b
-
-$Shoot$Al
-        ppb groups
-P  46.20825      a
-Fe 14.90760      b
-C   5.05720      c
-
-$Shoot$Si
-       ppb groups
-P  1098.75      a
-Fe  282.20      b
-C    84.60      c
 
 $Shoot$P
        ppb groups
@@ -181,12 +145,6 @@ Fe 194.6626      a
 P  156.9702      a
 C   36.5830      b
 
-$Shoot$As
-       ppb groups
-Fe 0.78160      a
-P  0.56975      b
-C  0.40560      c
-
 $Shoot$Se
        ppb groups
 P  0.86825      a
@@ -198,11 +156,5 @@ $Shoot$Mo
 P  12.32175      a
 Fe  3.93940      b
 C   2.58660      c
-
-$Shoot$Pb
-       ppb groups
-P  1.51675      a
-Fe 1.24020     ab
-C  0.12840      b
 
 
