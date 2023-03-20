@@ -12,7 +12,7 @@ library(scales)
 table <- read.csv("DATA_STD_MassBalance_Reuptake.csv", sep=";",
                   header=T)
 #or
-table <- read.csv("DATA_STD_MassBalance_Reuptake_(Surface).csv", sep=";",
+#table <- read.csv("DATA_STD_MassBalance_Reuptake_(Surface).csv", sep=";",
                   header=T)
 
 table <- table %>% drop_na(Value)
@@ -36,11 +36,11 @@ f2
 ggsave(filename = "STD_MassBalance_SideBySide_Boxplot.pdf", plot = last_plot(), dpi = 600, units = "cm", width = 70, height = 60, scale = 0.5)
 
 #or
-f2 <- f1 + facet_wrap(~Species_Tissue, scales="free", ncol = 1)+
-  ylab("Mass Balance (mg/cm2 Gly/Surface area)") + 
-  xlab("Time (Days)")
-f2
-ggsave(filename = "STD_MassBalance_SideBySide_Boxplot_Surface.pdf", plot = last_plot(), dpi = 600, units = "cm", width = 40, height = 60, scale = 0.5)
+#f2 <- f1 + facet_wrap(~Species_Tissue, scales="free", ncol = 1)+
+  #ylab("Mass Balance (mg/cm2 Gly/Surface area)") + 
+  #xlab("Time (Days)")
+#f2
+#ggsave(filename = "STD_MassBalance_SideBySide_Boxplot_Surface.pdf", plot = last_plot(), dpi = 600, units = "cm", width = 40, height = 60, scale = 0.5)
 
 
 #SideBySide Boxlot + trendline ####

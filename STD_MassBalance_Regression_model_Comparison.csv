@@ -23,11 +23,11 @@ Response: Value
                Df     Sum Sq    Mean Sq F value
 Time            1 0.00018649 1.8649e-04 17.6591
 Treatment       2 0.00006749 3.3744e-05  3.1952
-Time:Treatment  2 0.00017503 8.7514e-05  8.2867
+Time:Treatment  2 0.00017503 8.7514e-05  8.2868
 Residuals      84 0.00088710 1.0561e-05        
                   Pr(>F)    
 Time           6.558e-05 ***
-Treatment      0.0459823 *  
+Treatment      0.0459821 *  
 Time:Treatment 0.0005193 ***
 Residuals                   
 ---

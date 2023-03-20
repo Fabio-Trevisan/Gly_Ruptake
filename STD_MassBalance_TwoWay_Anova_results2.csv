@@ -26,7 +26,7 @@ Time            5 0.00023051 4.6102e-05  4.8275
 Treatment:Time 10 0.00033051 3.3051e-05  3.4608
 Residuals      72 0.00068760 9.5500e-06        
                   Pr(>F)    
-Treatment      0.0343714 *  
+Treatment      0.0343713 *  
 Time           0.0007310 ***
 Treatment:Time 0.0009385 ***
 Residuals                   
