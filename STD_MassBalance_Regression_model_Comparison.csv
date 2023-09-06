@@ -1,72 +1,71 @@
-$`50µM_TR`
-Analysis of Variance Table
-
-Response: Value
-               Df  Sum Sq  Mean Sq F value    Pr(>F)
-Time            1 0.17459 0.174586 17.7185 6.518e-05
-Treatment       2 0.07974 0.039869  4.0462   0.02109
-Time:Treatment  2 0.02754 0.013771  1.3976   0.25302
-Residuals      82 0.80797 0.009853                  
-                  
-Time           ***
-Treatment      *  
-Time:Treatment    
-Residuals         
----
-Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-$`50µM_TS`
-Analysis of Variance Table
-
-Response: Value
-               Df     Sum Sq    Mean Sq F value
-Time            1 0.00018649 1.8649e-04 17.6591
-Treatment       2 0.00006749 3.3744e-05  3.1952
-Time:Treatment  2 0.00017503 8.7514e-05  8.2868
-Residuals      84 0.00088710 1.0561e-05        
-                  Pr(>F)    
-Time           6.558e-05 ***
-Treatment      0.0459821 *  
-Time:Treatment 0.0005193 ***
-Residuals                   
----
-Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-$`500µM_TR`
-Analysis of Variance Table
-
-Response: Value
-               Df  Sum Sq Mean Sq F value    Pr(>F)
-Time            1  5.0379  5.0379 41.0350 8.534e-09
-Treatment       2  0.3933  0.1967  1.6019    0.2077
-Time:Treatment  2  0.0053  0.0026  0.0216    0.9787
-Residuals      83 10.1900  0.1228                  
-                  
-Time           ***
-Treatment         
-Time:Treatment    
-Residuals         
----
-Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-$`500µM_TS`
-Analysis of Variance Table
-
-Response: Value
-               Df     Sum Sq    Mean Sq F value
-Time            1 0.00018705 0.00018705  5.7097
-Treatment       2 0.00089307 0.00044653 13.6305
-Time:Treatment  2 0.00110393 0.00055196 16.8488
-Residuals      84 0.00275184 0.00003276        
-                  Pr(>F)    
-Time             0.01911 *  
-Treatment      7.470e-06 ***
-Time:Treatment 7.039e-07 ***
-Residuals                   
----
-Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
+$`50µM_TR`;;;;;;;;;;;
+Analysis;of;Variance;Table;;;;;;;;
+;;;;;;;;;;;
+Response:;Value;;;;;;;;;;
+;Df;Sum;Sq;Mean;Sq;F;value;Pr(>F);;;
+Time;1;0.17459;0.174586;17.7185;6.52E-05;;;;;;
+Treatment;2;0.07974;0.039869;4.0462;0.02109;;;;;;
+Time:Treatment;2;0.02754;0.013771;1.3976;0.25302;;;;;;
+Residuals;82;0.80797;0.009853;;;;;;;;
+;;;;;;;;;;;
+Time;***;;;;;;;;;;
+Treatment;*;;;;;;;;;;
+Time:Treatment;;;;;;;;;;;
+Residuals;;;;;;;;;;;
+---;;;;;;;;;;;
+Signif.;codes:;;;;;;;;;;
+0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
+;;;;;;;;;;;
+$`50µM_TS`;;;;;;;;;;;
+Analysis;of;Variance;Table;;;;;;;;
+;;;;;;;;;;;
+Response:;Value;;;;;;;;;;
+;Df;Sum;Sq;Mean;Sq;F;value;;;;
+Time;1;0.00018649;1.86E-04;17.6591;;;;;;;
+Treatment;2;0.00006749;3.37E-05;3.1952;;;;;;;
+Time:Treatment;2;0.00017503;8.75E-05;8.2868;;;;;;;
+Residuals;84;0.0008871;1.06E-05;;;;;;;;
+;Pr(>F);;;;;;;;;;
+Time;6.56E-05;***;;;;;;;;;
+Treatment;0.0459821;*;;;;;;;;;
+Time:Treatment;0.0005193;***;;;;;;;;;
+Residuals;;;;;;;;;;;
+---;;;;;;;;;;;
+Signif.;codes:;;;;;;;;;;
+0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
+;;;;;;;;;;;
+$`500µM_TR`;;;;;;;;;;;
+Analysis;of;Variance;Table;;;;;;;;
+;;;;;;;;;;;
+Response:;Value;;;;;;;;;;
+;Df;Sum;Sq;Mean;Sq;F;value;Pr(>F);;;
+Time;1;5.0379;5.0379;41.035;8.53E-09;;;;;;
+Treatment;2;0.3933;0.1967;1.6019;0.2077;;;;;;
+Time:Treatment;2;0.0053;0.0026;0.0216;0.9787;;;;;;
+Residuals;83;10.19;0.1228;;;;;;;;
+;;;;;;;;;;;
+Time;***;;;;;;;;;;
+Treatment;;;;;;;;;;;
+Time:Treatment;;;;;;;;;;;
+Residuals;;;;;;;;;;;
+---;;;;;;;;;;;
+Signif.;codes:;;;;;;;;;;
+0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
+;;;;;;;;;;;
+$`500µM_TS`;;;;;;;;;;;
+Analysis;of;Variance;Table;;;;;;;;
+;;;;;;;;;;;
+Response:;Value;;;;;;;;;;
+;Df;Sum;Sq;Mean;Sq;F;value;;;;
+Time;1;0.00018705;0.00018705;5.7097;;;;;;;
+Treatment;2;0.00089307;0.00044653;13.6305;;;;;;;
+Time:Treatment;2;0.00110393;0.00055196;16.8488;;;;;;;
+Residuals;84;0.00275184;0.00003276;;;;;;;;
+;Pr(>F);;;;;;;;;;
+Time;0.01911;*;;;;;;;;;
+Treatment;7.47E-06;***;;;;;;;;;
+Time:Treatment;7.04E-07;***;;;;;;;;;
+Residuals;;;;;;;;;;;
+---;;;;;;;;;;;
+Signif.;codes:;;;;;;;;;;
+0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
