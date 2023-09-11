@@ -1,71 +1,100 @@
-$`50µM_TR`;;;;;;;;;;;
-Analysis;of;Variance;Table;;;;;;;;
-;;;;;;;;;;;
-Response:;Value;;;;;;;;;;
-;Df;Sum;Sq;Mean;Sq;F;value;Pr(>F);;;
-Time;1;0.17459;0.174586;17.7185;6.52E-05;;;;;;
-Treatment;2;0.07974;0.039869;4.0462;0.02109;;;;;;
-Time:Treatment;2;0.02754;0.013771;1.3976;0.25302;;;;;;
-Residuals;82;0.80797;0.009853;;;;;;;;
-;;;;;;;;;;;
-Time;***;;;;;;;;;;
-Treatment;*;;;;;;;;;;
-Time:Treatment;;;;;;;;;;;
-Residuals;;;;;;;;;;;
----;;;;;;;;;;;
-Signif.;codes:;;;;;;;;;;
-0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
-;;;;;;;;;;;
-$`50µM_TS`;;;;;;;;;;;
-Analysis;of;Variance;Table;;;;;;;;
-;;;;;;;;;;;
-Response:;Value;;;;;;;;;;
-;Df;Sum;Sq;Mean;Sq;F;value;;;;
-Time;1;0.00018649;1.86E-04;17.6591;;;;;;;
-Treatment;2;0.00006749;3.37E-05;3.1952;;;;;;;
-Time:Treatment;2;0.00017503;8.75E-05;8.2868;;;;;;;
-Residuals;84;0.0008871;1.06E-05;;;;;;;;
-;Pr(>F);;;;;;;;;;
-Time;6.56E-05;***;;;;;;;;;
-Treatment;0.0459821;*;;;;;;;;;
-Time:Treatment;0.0005193;***;;;;;;;;;
-Residuals;;;;;;;;;;;
----;;;;;;;;;;;
-Signif.;codes:;;;;;;;;;;
-0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
-;;;;;;;;;;;
-$`500µM_TR`;;;;;;;;;;;
-Analysis;of;Variance;Table;;;;;;;;
-;;;;;;;;;;;
-Response:;Value;;;;;;;;;;
-;Df;Sum;Sq;Mean;Sq;F;value;Pr(>F);;;
-Time;1;5.0379;5.0379;41.035;8.53E-09;;;;;;
-Treatment;2;0.3933;0.1967;1.6019;0.2077;;;;;;
-Time:Treatment;2;0.0053;0.0026;0.0216;0.9787;;;;;;
-Residuals;83;10.19;0.1228;;;;;;;;
-;;;;;;;;;;;
-Time;***;;;;;;;;;;
-Treatment;;;;;;;;;;;
-Time:Treatment;;;;;;;;;;;
-Residuals;;;;;;;;;;;
----;;;;;;;;;;;
-Signif.;codes:;;;;;;;;;;
-0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
-;;;;;;;;;;;
-$`500µM_TS`;;;;;;;;;;;
-Analysis;of;Variance;Table;;;;;;;;
-;;;;;;;;;;;
-Response:;Value;;;;;;;;;;
-;Df;Sum;Sq;Mean;Sq;F;value;;;;
-Time;1;0.00018705;0.00018705;5.7097;;;;;;;
-Treatment;2;0.00089307;0.00044653;13.6305;;;;;;;
-Time:Treatment;2;0.00110393;0.00055196;16.8488;;;;;;;
-Residuals;84;0.00275184;0.00003276;;;;;;;;
-;Pr(>F);;;;;;;;;;
-Time;0.01911;*;;;;;;;;;
-Treatment;7.47E-06;***;;;;;;;;;
-Time:Treatment;7.04E-07;***;;;;;;;;;
-Residuals;;;;;;;;;;;
----;;;;;;;;;;;
-Signif.;codes:;;;;;;;;;;
-0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
+$`50microM_TR`
+
+Call:
+lm(formula = Value ~ Time * Treatment, data = Subsets[[m]])
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.18498 -0.06694 -0.00629  0.04794  0.37610 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       0.2670416  0.0317501   8.411 1.07e-12 ***
+Time             -0.0116808  0.0030670  -3.809 0.000269 ***
+TreatmentFe      -0.0001633  0.0450564  -0.004 0.997118    
+TreatmentP        0.0155158  0.0451363   0.344 0.731910    
+Time:TreatmentFe  0.0060381  0.0044199   1.366 0.175644    
+Time:TreatmentP   0.0065526  0.0043398   1.510 0.134920    
+---
+Signif. codes:  0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
+
+Residual standard error: 0.09926 on 82 degrees of freedom
+Multiple R-squared:  0.2586,	Adjusted R-squared:  0.2134 
+F-statistic: 5.721 on 5 and 82 DF,  p-value: 0.000141
+
+
+$`50microM_TS`
+
+Call:
+lm(formula = Value ~ Time * Treatment, data = Subsets[[m]])
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0091541 -0.0020806  0.0000175  0.0017254  0.0088792 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       0.0052891  0.0010394   5.088 2.17e-06 ***
+Time             -0.0004927  0.0001004  -4.907 4.49e-06 ***
+TreatmentFe      -0.0027020  0.0014700  -1.838 0.069577 .  
+TreatmentP       -0.0006819  0.0014700  -0.464 0.643919    
+Time:TreatmentFe  0.0005660  0.0001420   3.986 0.000143 ***
+Time:TreatmentP   0.0001812  0.0001420   1.276 0.205549    
+---
+Signif. codes:  0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
+
+Residual standard error: 0.00325 on 84 degrees of freedom
+Multiple R-squared:  0.326,	Adjusted R-squared:  0.2858 
+F-statistic: 8.125 on 5 and 84 DF,  p-value: 2.726e-06
+
+
+$`500microM_TR`
+
+Call:
+lm(formula = Value ~ Time * Treatment, data = Subsets[[m]])
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-0.8502 -0.2228 -0.0340  0.1973  0.9792 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       1.0037301  0.1120730   8.956    8e-14 ***
+Time             -0.0393460  0.0108261  -3.634 0.000482 ***
+TreatmentFe       0.1000095  0.1590422   0.629 0.531192    
+TreatmentP        0.1859785  0.1584952   1.173 0.243991    
+Time:TreatmentFe -0.0004137  0.0156017  -0.027 0.978908    
+Time:TreatmentP  -0.0029474  0.0153104  -0.193 0.847812    
+---
+Signif. codes:  0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
+
+Residual standard error: 0.3504 on 83 degrees of freedom
+Multiple R-squared:  0.3479,	Adjusted R-squared:  0.3086 
+F-statistic: 8.856 on 5 and 83 DF,  p-value: 9.062e-07
+
+
+$`500microM_TS`
+
+Call:
+lm(formula = Value ~ Time * Treatment, data = Subsets[[m]])
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0163114 -0.0033622 -0.0006827  0.0029123  0.0176117 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       0.0108401  0.0018307   5.921 6.76e-08 ***
+Time             -0.0004848  0.0001768  -2.742  0.00747 ** 
+TreatmentFe      -0.0048810  0.0025890  -1.885  0.06285 .  
+TreatmentP       -0.0042256  0.0025890  -1.632  0.10640    
+Time:TreatmentFe  0.0014518  0.0002501   5.805 1.11e-07 ***
+Time:TreatmentP   0.0007347  0.0002501   2.938  0.00427 ** 
+---
+Signif. codes:  0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
+
+Residual standard error: 0.005724 on 84 degrees of freedom
+Multiple R-squared:  0.4425,	Adjusted R-squared:  0.4093 
+F-statistic: 13.33 on 5 and 84 DF,  p-value: 1.449e-09
+
+
