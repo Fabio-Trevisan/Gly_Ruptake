@@ -7,6 +7,7 @@ library(plyr)
 library(dplyr)
 library(readxl)
 library(scales)
+library(agricolae)
 
 
 table <- read.csv("DATA_STD_MassBalance_Reuptake.csv" , sep=";" ,header=T)
@@ -159,6 +160,15 @@ Regression_model_comparison_print <- lapply(vector_Species_Tissue, function(m){
 names(Regression_model_comparison_print) <- vector_Species_Tissue
 
 
+
+#Tukey as post hoc test ####
+##Treatment
+HSD_Tr <- lapply(vector_Species_Tissue, function(m){
+  HSD.test(Regression_model_comparison[[m]], "Treatment")
+})
+names(HSD_Tr) <- vector_Species_Tissue
+
+
 sink("STD_MassBalance_Regression_model_Comparison.csv")
-Regression_model_comparison_print
+HSD_Tr
 sink(NULL)

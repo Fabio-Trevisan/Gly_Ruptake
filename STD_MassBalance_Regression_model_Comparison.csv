@@ -1,100 +1,111 @@
-$`50microM_TR`
-
-Call:
-lm(formula = Value ~ Time * Treatment, data = Subsets[[m]])
-
-Residuals:
-     Min       1Q   Median       3Q      Max 
--0.18498 -0.06694 -0.00629  0.04794  0.37610 
-
-Coefficients:
-                   Estimate Std. Error t value Pr(>|t|)    
-(Intercept)       0.2670416  0.0317501   8.411 1.07e-12 ***
-Time             -0.0116808  0.0030670  -3.809 0.000269 ***
-TreatmentFe      -0.0001633  0.0450564  -0.004 0.997118    
-TreatmentP        0.0155158  0.0451363   0.344 0.731910    
-Time:TreatmentFe  0.0060381  0.0044199   1.366 0.175644    
-Time:TreatmentP   0.0065526  0.0043398   1.510 0.134920    
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 0.09926 on 82 degrees of freedom
-Multiple R-squared:  0.2586,	Adjusted R-squared:  0.2134 
-F-statistic: 5.721 on 5 and 82 DF,  p-value: 0.000141
-
-
-$`50microM_TS`
-
-Call:
-lm(formula = Value ~ Time * Treatment, data = Subsets[[m]])
-
-Residuals:
-       Min         1Q     Median         3Q        Max 
--0.0091541 -0.0020806  0.0000175  0.0017254  0.0088792 
-
-Coefficients:
-                   Estimate Std. Error t value Pr(>|t|)    
-(Intercept)       0.0052891  0.0010394   5.088 2.17e-06 ***
-Time             -0.0004927  0.0001004  -4.907 4.49e-06 ***
-TreatmentFe      -0.0027020  0.0014700  -1.838 0.069577 .  
-TreatmentP       -0.0006819  0.0014700  -0.464 0.643919    
-Time:TreatmentFe  0.0005660  0.0001420   3.986 0.000143 ***
-Time:TreatmentP   0.0001812  0.0001420   1.276 0.205549    
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 0.00325 on 84 degrees of freedom
-Multiple R-squared:  0.326,	Adjusted R-squared:  0.2858 
-F-statistic: 8.125 on 5 and 84 DF,  p-value: 2.726e-06
-
-
-$`500microM_TR`
-
-Call:
-lm(formula = Value ~ Time * Treatment, data = Subsets[[m]])
-
-Residuals:
-    Min      1Q  Median      3Q     Max 
--0.8502 -0.2228 -0.0340  0.1973  0.9792 
-
-Coefficients:
-                   Estimate Std. Error t value Pr(>|t|)    
-(Intercept)       1.0037301  0.1120730   8.956    8e-14 ***
-Time             -0.0393460  0.0108261  -3.634 0.000482 ***
-TreatmentFe       0.1000095  0.1590422   0.629 0.531192    
-TreatmentP        0.1859785  0.1584952   1.173 0.243991    
-Time:TreatmentFe -0.0004137  0.0156017  -0.027 0.978908    
-Time:TreatmentP  -0.0029474  0.0153104  -0.193 0.847812    
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 0.3504 on 83 degrees of freedom
-Multiple R-squared:  0.3479,	Adjusted R-squared:  0.3086 
-F-statistic: 8.856 on 5 and 83 DF,  p-value: 9.062e-07
-
-
-$`500microM_TS`
-
-Call:
-lm(formula = Value ~ Time * Treatment, data = Subsets[[m]])
-
-Residuals:
-       Min         1Q     Median         3Q        Max 
--0.0163114 -0.0033622 -0.0006827  0.0029123  0.0176117 
-
-Coefficients:
-                   Estimate Std. Error t value Pr(>|t|)    
-(Intercept)       0.0108401  0.0018307   5.921 6.76e-08 ***
-Time             -0.0004848  0.0001768  -2.742  0.00747 ** 
-TreatmentFe      -0.0048810  0.0025890  -1.885  0.06285 .  
-TreatmentP       -0.0042256  0.0025890  -1.632  0.10640    
-Time:TreatmentFe  0.0014518  0.0002501   5.805 1.11e-07 ***
-Time:TreatmentP   0.0007347  0.0002501   2.938  0.00427 ** 
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 0.005724 on 84 degrees of freedom
-Multiple R-squared:  0.4425,	Adjusted R-squared:  0.4093 
-F-statistic: 13.33 on 5 and 84 DF,  p-value: 1.449e-09
-
-
+$`50microM_TR`;;;;;;;;
+$statistics;;;;;;;;
+MSerror Df      Mean;;CV;;;;;;
+0.009853344 82 0.2085397;47;0.59957;;;;;;
+;;;;;;;;
+$parameters;;;;;;;;
+test    name.t ntr Stud;ent;izedRange;alpha;;;;;
+Tukey Treatment   3;;3.375734;0.05;;;;;
+;;;;;;;;
+$means;;;;;;;;
+Value       std  r;;Min;;Max;;;Q25;Q50       Q75
+C  0.1677547 0.1000183 30;0;1169471;0.4144;617;0;972;274 0.1481;516 0.2142506
+Fe 0.2205688 0.1039903 29;0;2248622;0.4858;849;0;1695;079 0.2131;391 0.2566874
+P  0.2387022 0.1219571 29;0;8516335;0.6227;582;0;1579;546 0.2017;184 0.2953091
+;;;;;;;;
+$comparison;;;;;;;;
+NULL;;;;;;;;
+;;;;;;;;
+$groups;;;;;;;;
+Value groups;;;;;;;;
+P  0.2387022      a;;;;;;;;
+Fe 0.2205688     ab;;;;;;;;
+C  0.1677547      b;;;;;;;;
+;;;;;;;;
+"attr(,""class"")";;;;;;;;
+"[1] ""group""";;;;;;;;
+;;;;;;;;
+$`50microM_TS`;;;;;;;;
+$statistics;;;;;;;;
+MSerror Df        Me;an;CV;;MS;D;;;
+1.05607e-05 84 0.0020904;73;155.454 0;0.002;199;7;;;
+;;;;;;;;
+$parameters;;;;;;;;
+test    name.t ntr Stud;ent;izedRange;alpha;;;;;
+Tukey Treatment   3;;3.374254;0.05;;;;;
+;;;;;;;;
+$means;;;;;;;;
+Value         std;r;;Min;;;Max;;Q25         Q50
+C  0.001101515 0.004619118;30;-0.0086;7855 0;0.01;161;6837;-0.000781;0605 0.001539480
+Fe 0.003210460 0.003162290;30;-0.00532;0243 0;0;992;6950;0.001279;4165 0.002871590
+P  0.001959443 0.003423378;30;-0.00495;2103 0;0;912;5338;-0.000531;4510 0.002348661
+Q75;;;;;;;;
+C  0.003800182;;;;;;;;
+Fe 0.005017207;;;;;;;;
+P  0.004054120;;;;;;;;
+;;;;;;;;
+$comparison;;;;;;;;
+NULL;;;;;;;;
+;;;;;;;;
+$groups;;;;;;;;
+Value groups;;;;;;;;
+Fe 0.003210460      a;;;;;;;;
+P  0.001959443     ab;;;;;;;;
+C  0.001101515      b;;;;;;;;
+;;;;;;;;
+"attr(,""class"")";;;;;;;;
+"[1] ""group""";;;;;;;;
+;;;;;;;;
+$`500microM_TR`;;;;;;;;
+$statistics;;;;;;;;
+MSerror Df      Mean;;CV;;;;;;
+0.1227711 83 0.7587723 4;6.1;7816;;;;;;
+;;;;;;;;
+$parameters;;;;;;;;
+test    name.t ntr Stud;ent;izedRange;alpha;;;;;
+Tukey Treatment   3;;3.374985;0.05;;;;;
+;;;;;;;;
+$means;;;;;;;;
+Value       std  r;;Min;Max;;;Q25;Q50;Q75
+C  0.6692890 0.3593144 30;0.2;796703 1.;421141;0;367;8759;0.5525485;0.9610221
+Fe 0.7774355 0.4680331 29;0.2;274075 1.;963707;0;441;7882;0.5944471;1.0167803
+P  0.8302145 0.4293331 30;0.1;692187 1.;651136;0;488;2912;0.7677754;1.0509752
+;;;;;;;;
+$comparison;;;;;;;;
+NULL;;;;;;;;
+;;;;;;;;
+$groups;;;;;;;;
+Value groups;;;;;;;;
+P  0.8302145      a;;;;;;;;
+Fe 0.7774355      a;;;;;;;;
+C  0.6692890      a;;;;;;;;
+;;;;;;;;
+"attr(,""class"")";;;;;;;;
+"[1] ""group""";;;;;;;;
+;;;;;;;;
+$`500microM_TS`;;;;;;;;
+$statistics;;;;;;;;
+MSerror Df        M;ean;CV;;;MSD;;;
+3.275998e-05 84 0.009878;336;57.94127;0.003;526;54;;;
+;;;;;;;;
+$parameters;;;;;;;;
+test    name.t ntr Stud;ent;izedRange;alpha;;;;;
+Tukey Treatment   3;;3.374254;0.05;;;;;
+;;;;;;;;
+$means;;;;;;;;
+Value         std;r;;Min;;;Max;Q2;5         Q50         Q75
+C  0.006718911 0.004884859;30;-0.00569;8787 0;0.01;518;507;0.00494568;5 0.006672715 0.008811299
+Fe 0.014177971 0.009375107;30;0.00187;8568 0;0.03;969;993;0.00629004;5 0.013970883 0.017608023
+P  0.008738128 0.005258612;30;-0.00006;6400 0;0.02;56;633;0.00490238;5 0.007673869 0.012722767
+;;;;;;;;
+$comparison;;;;;;;;
+NULL;;;;;;;;
+;;;;;;;;
+$groups;;;;;;;;
+Value groups;;;;;;;;
+Fe 0.014177971      a;;;;;;;;
+P  0.008738128      b;;;;;;;;
+C  0.006718911      b;;;;;;;;
+;;;;;;;;
+"attr(,""class"")";;;;;;;;
+"[1] ""group""";;;;;;;;
