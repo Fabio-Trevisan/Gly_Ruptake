@@ -91,6 +91,16 @@ ggsave(filename = paste(name, "_3.pdf", sep = ""), plot = f4, dpi = 600, units =
 #statistics ####
 colnames(Table_2_sum) <- c("Treatment", "Variable", "Value") 
 
+Summary_table <- ddply(Table_2_sum, c("Treatment", "variable"), summarise,
+                       N    = sum(!is.na(value)),
+                       mean = mean(value, na.rm=TRUE),
+                       sd   = sd(value, na.rm=TRUE),
+                       se   = sd / sqrt(N))
+Summary_table
+write.table(Summary_table, "Physiological_Parameters_summary_statistics.csv", quote = FALSE, sep = ";")
+
+
+
 ##Assumptions ####
 ## 1. Homogeneity of variances
 ##Treatment*Time

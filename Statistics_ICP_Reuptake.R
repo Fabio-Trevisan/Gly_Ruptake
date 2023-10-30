@@ -18,6 +18,15 @@ table2 <- melt(data = table,
                variable.name = "Element", 
                value.name = "ppb")
 
+Summary_table <- ddply(table2, c("Treatment", "Tissue", "Element"), summarise,
+                       N    = sum(!is.na(ppb)),
+                       mean = mean(ppb, na.rm=TRUE),
+                       sd   = sd(ppb, na.rm=TRUE),
+                       se   = sd / sqrt(N))
+Summary_table
+write.table(Summary_table, "ICP_summary_statistics.csv", quote = FALSE, sep = ";")
+
+
 
 #Assumptions ####
 ## 1. Homogeneity of variances
