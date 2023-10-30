@@ -20,6 +20,14 @@ vector_Species_Tissue <- c("50microM_TR",
                            "500microM_TR",
                            "500microM_TS")
 
+Summary_table <- ddply(table, c("Treatment", "Time", "Species_Tissue"), summarise,
+                       N    = sum(!is.na(Value)),
+                       mean = mean(Value, na.rm=TRUE),
+                       sd   = sd(Value, na.rm=TRUE),
+                       se   = sd / sqrt(N))
+Summary_table
+write.table(Summary_table, "STD_MassBalance_summary_statistics.csv", quote = FALSE, sep = ";")
+
 
 
 #create Subsets according to Species_Tissue ####
