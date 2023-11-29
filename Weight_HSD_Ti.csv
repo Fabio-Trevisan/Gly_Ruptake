@@ -1,0 +1,174 @@
+$`0microM_TR`
+$`0microM_TR`$C
+    Value groups
+17 1353.4      a
+14  783.2      b
+10  285.6      c
+7   129.6      c
+3    34.4      c
+0    15.6      c
+
+$`0microM_TR`$Fe
+   Value groups
+17 542.8      a
+14 227.2      b
+10 157.0      b
+7   74.2      b
+3   36.4      b
+0   17.8      b
+
+$`0microM_TR`$P
+   Value groups
+17 249.8      a
+14 235.6     ab
+10 138.2     bc
+7  103.4     cd
+3   40.2     cd
+0   14.6      d
+
+
+$`0microM_TS`
+$`0microM_TS`$C
+    Value groups
+17 8426.4      a
+14 5962.6      b
+10 1995.0      c
+7  1061.8      c
+3   270.8      c
+0   128.4      c
+
+$`0microM_TS`$Fe
+    Value groups
+17 3003.0      a
+14 1206.8      b
+10  905.0      b
+7   467.2      b
+3   232.2      b
+0   120.0      b
+
+$`0microM_TS`$P
+   Value groups
+17 614.6      a
+14 560.4     ab
+10 508.2     ab
+7  396.4     bc
+3  236.6     cd
+0  126.2      d
+
+
+$`50microM_TR`
+$`50microM_TR`$C
+    Value groups
+17 1318.2      a
+14  588.8      b
+10  211.8     bc
+7    75.8     bc
+3    38.4      c
+0    16.0      c
+
+$`50microM_TR`$Fe
+   Value groups
+17 607.2      a
+14 293.8      b
+10 219.2      b
+7   89.2      b
+3   34.6      b
+0   14.8      b
+
+$`50microM_TR`$P
+   Value groups
+17 292.4      a
+14 219.0     ab
+10 214.2     ab
+7  111.2     bc
+3   34.0      c
+0   16.4      c
+
+
+$`50microM_TS`
+$`50microM_TS`$C
+    Value groups
+17 8931.6      a
+14 4972.2      b
+10 1698.4      c
+7   409.0      c
+3   255.8      c
+0   124.6      c
+
+$`50microM_TS`$Fe
+    Value groups
+17 3414.6      a
+14 1623.6      b
+10 1156.2      b
+7   473.6      c
+3   258.4      c
+0    86.8      c
+
+$`50microM_TS`$P
+   Value groups
+10 638.0      a
+17 637.2      a
+14 559.6      a
+7  486.6     ab
+3  268.0     bc
+0  125.2      c
+
+
+$`500microM_TR`
+$`500microM_TR`$C
+    Value groups
+17 1319.6      a
+14  738.0      b
+10  250.2     bc
+7    95.8      c
+3    43.0      c
+0    13.8      c
+
+$`500microM_TR`$Fe
+   Value groups
+17 419.5      a
+14 322.0      a
+10 160.4      b
+7   96.6     bc
+3   49.8     bc
+0   11.6      c
+
+$`500microM_TR`$P
+   Value groups
+17 285.2      a
+14 257.6      a
+10 193.2     ab
+7   82.2     bc
+3   48.2      c
+0   15.8      c
+
+
+$`500microM_TS`
+$`500microM_TS`$C
+    Value groups
+17 9509.8      a
+14 5476.8      b
+10 1981.8      c
+7   887.2      c
+3   326.4      c
+0   116.4      c
+
+$`500microM_TS`$Fe
+    Value groups
+17 2179.0      a
+14 2114.2      a
+10  819.0      b
+7   524.2      b
+3   227.4      b
+0   118.6      b
+
+$`500microM_TS`$P
+   Value groups
+17 762.4      a
+14 656.2     ab
+10 590.4     ab
+7  407.8     bc
+3  270.8      c
+0  118.0      c
+
+
