@@ -22,6 +22,24 @@ table3 <- dcast(table2,
                 mean,
                 value.var = "ppb") 
 
+#summary table ####
+Summary_table <- ddply(table2, c("Treatment", "Element", "Tissue"), summarise,
+                       N    = sum(!is.na(ppb)),
+                       mean = mean(ppb, na.rm=TRUE),
+                       sd   = sd(ppb, na.rm=TRUE),
+                       se   = sd / sqrt(N))
+
+ICP_table <- Summary_table[,-6]
+ICP_table$mean <- round(ICP_table$mean, 3)
+ICP_table$se <- round(ICP_table$se, 3)
+ICP_table$Concentration <- paste(ICP_table$mean, ICP_table$se, sep = " ± ")
+ICP_table <- ICP_table[,-c(5,6)]
+
+ICP_table_2 <- dcast(ICP_table, Tissue+Treatment+N~Element, value.var = "Concentration") 
+
+
+write.table(ICP_table_2, file = "ICP_table_Glycine.csv", quote = FALSE, sep = ";")
+
 
 #Normalization and centration for each element####
 #between 0 and 1 (according to range)
